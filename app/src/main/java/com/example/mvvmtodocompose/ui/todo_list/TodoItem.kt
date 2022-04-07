@@ -19,7 +19,7 @@ import com.example.mvvmtodocompose.data.Todo
 fun TodoItem(
     todo: Todo,
     onEvent: (TodoListEvent) -> Unit,
-    modifier: Modifier
+    modifier: Modifier=Modifier
 ) {
     Row(
         modifier = modifier,
